@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function AuthLayout({children} : {children: React.ReactNode}) {
   return (
     <div className="min-h-screen flex">
-        <section className="bg-brand p-10 hidden w-1/2 items-center justify-center lg:flex xl:h-2/5">
+        <section className="bg-brand p-10 hidden w-1/2 items-center justify-center lg:flex">
             <div className="flex flex-col justify-center gap-8 max-h-[800px] max-w-[430px]">
                 <div className="text-white flex items-center gap-3">
                     <Image
